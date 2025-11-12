@@ -15,7 +15,7 @@ function ProjectCard({ project }) {
     toggleLightBox(!isShowLightbox);
     itemref.current = null;
   };
- 
+
   //lo de arriba sirve para mi modal imagen
   return (
     <div className="project-card">
@@ -23,7 +23,7 @@ function ProjectCard({ project }) {
         <label className="project-title">{project.title}</label>
         <div className="project-links">
           {project.demo && (
-            <a className="project-link" href={project.demo}>
+            <a className="project-link" href={project.demo} target="_blank">
               <div className="link-button">
                 <i class="fi-rr-globe"></i>
                 Demo
@@ -31,25 +31,25 @@ function ProjectCard({ project }) {
             </a>
           )}
           {project.github && (
-            <a className="project-link" href={project.github}>
+            <a className="project-link" href={project.github} target="_blank">
               <div className="link-button">
                 <i class="devicon-github-original colored"> </i> Github
-                 
+
               </div>
             </a>
           )}
         </div>
-        <p>{project.about}</p>
+        <p style={{ whiteSpace: 'pre-line' }}>{project.about}</p>
         <div className="project-tags">
           {project.tags.map((tag) => {
             return <label className="tag" >{tag}</label>;
           })}
         </div>
       </div>
-     
+
       <img src={project.image} className="project-photo"
-      onClick={(e) => showLightBox(e, project)}  />
-     
+        onClick={(e) => showLightBox(e, project)} />
+
       {isShowLightbox ? (
         <Lightbox project={itemref.current} onClose={onClose} />
       ) : (

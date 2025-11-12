@@ -11,11 +11,11 @@ function Projects() {
     <>
       <div className="projects">
         <Separator />
-        <label className="section-title">Proyectos</label>
+        <label className="section-title">Proyectos & Certificado</label>
         <p>
           Todos los días me dediqué a construir algo a partir de lo que aprendí, a continuación hay{' '}
-          <br /> una lista de sitios web que hice últimamente, aplicando las buenas prácticas de desarrollo
-          de software.
+          <br /> una lista de sitios web que hice últimamente, aplicando las buenas prácticas de
+          desarrollo de software.
         </p>
 
         <div>
@@ -24,12 +24,11 @@ function Projects() {
           })}
         </div>
 
-        <a href="https://github.com/xyeison2010">
-          <button>Ver más</button>
-        </a>
-      </div> 
-    <Slider />
-
+        <button onClick={() => window.open('https://github.com/lhuaca2010', '_blank')}>
+          Ver más
+        </button>
+      </div>
+      <Slider />
     </>
   );
 }

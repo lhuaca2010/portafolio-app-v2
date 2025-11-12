@@ -1,6 +1,6 @@
-import React from "react";
-import SocialContact from "../../containers/common/social-contact/socialContact";
-import "./about.css";
+import React from 'react';
+import SocialContact from '../../containers/common/social-contact/socialContact';
+import './about.css';
 
 import mi_foto from '../../images/yo.png';
 function About() {
@@ -8,15 +8,15 @@ function About() {
     <div className="about">
       <div className="about-top">
         <div className="about-info">
-          Hola 👋, Soy un  <br />
-          <span className="info-name">Desarrollador Full Stack</span><br />  
-         con sede en la animada ciudad de Lima, Perú. <br /> 
-        !Que bueno verte!
-      
-        </div> 
+          Hola 👋, Soy un <br />
+          <span className="info-name">Desarrollador BI</span>
+          <br />
+          con sede en la animada ciudad de Lima, Perú. <br />
+          !Que bueno verte!
+        </div>
         <div className="about-photo">
           <img
-           // src={require("../../../assets/image/coding.png").default}
+            // src={require("../../../assets/image/coding.png").default}
             src={mi_foto}
             className="picture"
           />

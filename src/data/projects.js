@@ -1,71 +1,58 @@
 
 import tennis from "../images/project/tennis.png"
-import pastel from "../images/project/pastel.png"
+import snowpro from "../images/project/snowpro.png"
 import bazar from "../images/project/bazar_shop.png"
 
-import shopcv from "../images/project/shopping.png"
+import airline from "../images/project/airline.png"
 export const ProjectData = [
   {
     id: 1,
-    title: `Tennis App`,
+    title: `SnowPro Core Certification`,
     about:
-      `
-      Implementa solicitudes de Api Rest con React,
-      usando Spring boot como backend y base de datos PostgreSql.
-      Con ranking de usuarios y  creacion del juego por partido y torneo.`,
+      `Certificación en el uso de Snowflake, con enfoque en el dominio de su arquitectura, gestión de datos, seguridad, optimización de consultas y administración de recursos \n en la nube.`,
 
-    tags: ["React", "spring boot", "PostgreSql", "axios", "JUnit","mockito"],
-    demo: "https://tennis-app.herokuapp.com/",
-    github: "https://github.com/xyeison2010/Tennis",
-    image: `${tennis}`,
+    tags: ["Snowflake concepts", "Cloud", "Database", "DDL & DML"],
+    demo: "https://achieve.snowflake.com/05bd70cc-979b-49eb-bfca-3389165f0c1f#acc.s4fOgUpV",
+    github: "",
+    image: `${snowpro}`,
 
   },
   {
     id: 2,
-    title: "Bazar Shop",
+    title: 'Airline Check-in Simulation',
     about:
-      `Bazar Shop hecha en React,
-      proporciona un interfaz 
-      para el control de ventas en el cual se puede filtrar por rango, categorias
-    y guardar favoritos. 
-    
-    `,
-    tags: ["React", "responsive", "hooks", "Sass", "router"],
-    demo: "https://bazar-shop.up.railway.app/",
-    github: "https://github.com/xyeison2010/bazar-shop-app",
+      `Implementación de una API REST para la simulación de check-in de pasajeros de una aerolínea, desarrollada con Spring Boot y base de datos MySQL.`,
+    tags: ['Spring boot', 'MySQL', "Data Modeling", "Postman"],
+    demo: "",
+    github: "https://github.com/lhuaca2010/airline-api",
     image:
-      `${bazar}`,
-
+      `${airline}`,
   },
   {
     id: 3,
-    title: 'Shopping Cart',
+    title: `Tennis App`,
     about:
-    `Aplicación de ecommerce muy completa, con carrito de compras, roles de usuarios,
-    el admin puede visualizar y agregar productos. \n 
-   Para la seguridad use Spring security con OAuth2.0.
-     `,
-    tags: ['spring boot', 'Thymeleaf',"MySql", "spring security", "oauth" ],
-    demo: "",
-    github: "https://github.com/xyeison2010/shopping-Cart",
-    image:
-      `${shopcv}`,
+      `Juego de tennis desarrollado con Spring Boot y React, implementando servicios REST y base de datos PostgreSQL, aplicando patrones de \n diseño para la gestión de partidos.`,
+
+    tags: ["React", "Spring boot", "PostgreSQL", "JUnit", "JPA"],
+    demo: "https://tennis-app.herokuapp.com/",
+    github: "https://github.com/lhuaca2010/Tennis",
+    image: `${tennis}`,
+
   },
   {
     id: 4,
-    title: "Pastry Shop",
+    title: "Bazar Shop",
     about:
-      `Es una aplicación para un mercado de dulcerias con 100% flexbox y grid,
-       actualiza el menú de forma dinámica y realizar pedidos en tiempo real.`,
-    tags: ["React", "css", "promise", "context"],
-    demo: "https://pastry-web.herokuapp.com/",
-    github: "https://github.com/xyeison2010/pastry-shop-app",
+      `Aplicación desarrollada en React enfocada en la visualización de datos \n de ventas, pensada como base para integraciones con herramientas de \n BI. 
+    `,
+    tags: ["React", "Data Visualization"],
+    demo: "https://bazar-shop.up.railway.app/",
+    github: "https://github.com/lhuaca2010/bazar-shop-app",
     image:
-      `${pastel}`,
+      `${bazar}`,
 
-  },
-
- 
+  }
 
 
 ];

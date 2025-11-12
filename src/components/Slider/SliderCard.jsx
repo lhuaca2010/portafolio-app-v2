@@ -3,14 +3,12 @@ import style from './card.module.css';
 const SliderCard = ({ datos }) => {
   return (
     <>
-      <div className={style.slide} >
-        <div className={style.content_img} >
+      <div className={style.slide}>
+        <div className={style.content_img}>
           <img src={datos.img} alt="" />
         </div>
 
-        <div
-         className={style.content_info}
-        >
+        <div className={style.content_info}>
           <h3>{datos.title}</h3>
 
           <div className={style.datosTags}>
@@ -30,7 +28,7 @@ const SliderCard = ({ datos }) => {
             }}
           >
             {datos.demo && (
-              <a href={datos.demo} style={{ textDecoration: 'none' }}>
+              <a href={datos.demo} style={{ textDecoration: 'none' }} target="_blank">
                 <div className={style.link_deploy}>
                   <i class="fi-rr-globe"></i>
                   Demo
@@ -38,7 +36,7 @@ const SliderCard = ({ datos }) => {
               </a>
             )}
             {datos.github && (
-              <a href={datos.github} style={{ textDecoration: 'none' }}>
+              <a href={datos.github} style={{ textDecoration: 'none' }} target="_blank">
                 <div className={style.link_deploy}>
                   <i class="devicon-github-original colored"></i>
                   Github

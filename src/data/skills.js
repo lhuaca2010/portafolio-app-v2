@@ -1,60 +1,53 @@
 export const SkillsData = [
   {
-    type: "Frontend",
+    type: "Data Management & BI",
     list: [
       {
-        name: "React",
-        icon: <i class="devicon-react-original colored"></i>,
+        name: "SAP (ERP)",
+        icon: <img src="https://img.icons8.com/?size=100&id=38192&format=png&color=000000" />,
       },
       {
-        name: "Redux",
-        icon: <i class="devicon-redux-original colored"></i>,
+        name: "SQL",
+        icon: <img src="https://img.icons8.com/?size=100&id=J6KcaRLsTgpZ&format=png&color=000000" />,
       },
       {
-        name: "Javascript",
-        icon: <i class="devicon-javascript-plain colored"></i>,
+        name: "Python",
+        icon: <img src="https://img.icons8.com/?size=100&id=13441&format=png&color=000000" />,
       },
       {
-        name: "Typescript",
-        icon: <i class="devicon-typescript-plain colored"></i>,
+        name: "Snowflake",
+        icon: <img src="https://img.icons8.com/?size=100&id=sFhVsOp882LS&format=png&color=000000" />,
       },
       {
-        name: "Html5",
-        icon: <i class="devicon-html5-plain colored"></i>,
+        name: "Git",
+        icon: <i class="devicon-git-plain colored"></i>,
       },
-    
-      {
-        name: "Sass",
-        icon:    <i class="devicon-sass-plain colored"></i>,
-      },
+
     ],
   },
   {
-    type: "Backend",
+    type: "ETL & Modeling",
     list: [
 
-   
-      {
-        name: "Spring Boot",
-        icon: <i class="devicon-spring-plain colored"></i>,
-      },
-    
-      {
-        name: "PostgreSql",
-        icon: <i class="devicon-postgresql-plain colored"></i>
-       ,
-      },
-      {
-        name: "MySQL",
-        icon: <i class="devicon-mysql-plain colored"></i> ,
-      },
-      {
-        name: "Docker",
-        icon: <i class="devicon-docker-plain-wordmark colored"></i>
 
-        ,
+      {
+        name: "Data Migration",
+        icon: <img src="https://img.icons8.com/?size=100&id=yVhO6IrLt66u&format=png&color=000000" />,
       },
-     
+
+      {
+        name: "Data Flow",
+        icon: <img src="https://img.icons8.com/?size=100&id=oRMWRaD1BFpj&format=png&color=000000" />,
+      },
+      {
+        name: "Task Chain",
+        icon: <img src="https://img.icons8.com/?size=100&id=59kMTndKioLH&format=png&color=000000" />,
+      },
+      {
+        name: "Pipelines",
+        icon: <img src="https://img.icons8.com/?size=100&id=36258&format=png&color=000000" />,
+      },
+
     ],
   },
 
