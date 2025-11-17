@@ -15,3 +15,4 @@ export default App;
 //cambie de browser router a hashrouter -> necesario para deploy en github pages
 
 //al final simnplemente quite "react router" no es necesario ya q es solo de 1 pagina
+//ya q tiene problemas con las rutas q github pages, detecta//
